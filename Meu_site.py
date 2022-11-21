@@ -2,6 +2,12 @@ from flask import Flask
 app=Flask(__name__)
 @app.route("/")
 def homepage():
-    return "primeiro site 2"
-app.run(debug=True)
+    return "primeiro site 2a"
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
+else:
+    pass
+
 
